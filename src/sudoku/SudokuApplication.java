@@ -11,7 +11,7 @@ public class SudokuApplication extends Application {
     private IUserInterfaceContract.View uiImpl;
     @Override
     public void start(Stage stage) throws IOException {
-        uiImpl- new UserInterfaceImpl(stage);
+        uiImpl= new UserInterfaceImpl(stage);
 
         try{
             SudokuBuildLogic.build(uiImpl);

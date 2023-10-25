@@ -66,7 +66,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
             Rectangle verticalLine=getLine(xAndY+64*index,BOARD_PADDING,BOARD_X_AND_Y,thickness);
             Rectangle horizontalLine=getLine(xAndY+64*index,BOARD_PADDING,thickness,BOARD_X_AND_Y);
-            root.getChildren().addAll(verticalLine,horizontalLine);
+            root.getChildren().addAll(horizontalLine,verticalLine);
 
             index++;
         }

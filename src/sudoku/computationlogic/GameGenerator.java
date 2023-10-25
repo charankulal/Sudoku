@@ -11,6 +11,7 @@ import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 public class GameGenerator {
     public static int[][] getNewGameGrid()
     {
+
         return unsolveGame(getSolvedGame());
     }
 
